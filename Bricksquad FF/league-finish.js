@@ -1,7 +1,7 @@
 // Initializes the page with a default plot
 function init() {
   data = [{
-    x = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021];
+    x = [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
     y: [1, 2, 3, 4, 5, 6, 7, 8] }];
 
   Plotly.newPlot("plot", data);
