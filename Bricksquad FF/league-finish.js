@@ -4,7 +4,15 @@ function init() {
     x: [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
     y: [1, 2, 3, 4, 5, 6, 7, 8]
   }];
-  Plotly.newPlot("plot", data);
+  var layout = {
+    title: "League Finish by Player",
+    margin: { t:0},
+    hovermode: "closest",
+    xaxis: {title: "Year"},
+    yaxis: {title: "League Finish"},
+    margin: { t: 30}
+  };
+  Plotly.newPlot("plot", data, layout);
 }
 
 // Call updatePlotly() when a change takes place to the DOM
@@ -72,7 +80,7 @@ function updatePlotly() {
     y = [-2, -4, -2, -1, -2, -7, -4, -9];
   }
 
-  // Note the extra brackets around 'x' and 'y'
+  // Assigning customization to the graph
 
   Plotly.restyle("plot", "x", [x]);
   Plotly.restyle("plot", "y", [y]);
