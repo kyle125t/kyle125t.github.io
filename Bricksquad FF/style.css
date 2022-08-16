@@ -33,6 +33,7 @@ hr.rounded {
   width: 200px;
   display: inline-flex;
   align-items: center;
+  text-align: center;
 }
 
 .container img {
@@ -51,16 +52,19 @@ div.container {
   display: inline-flex;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
 .container h2 {
   margin-left: 20px;
   margin-right: 20px;
+  text-align: center;
 }
 
 .container p {
   margin-left: 20px;
   margin-right: 20px;
+  text-align: center;
 }
 
 /* media queries which will only be activated at specific screen sizes */
