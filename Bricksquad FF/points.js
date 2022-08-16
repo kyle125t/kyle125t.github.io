@@ -271,7 +271,8 @@ function updatePlotly() {
   }
 
   // Assigning customization to the graph
-  Plotly.restyle("plot", "y", [y]);
+  // add back in , [y] if failure
+  Plotly.restyle("plot", "y");
 }
 
 init();
