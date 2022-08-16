@@ -38,7 +38,6 @@ hr.rounded {
 .container img {
   width: 50%;
   margin-right: 20px;
-  margin-left: 20px;
   flex: row;
 }
 
@@ -136,9 +135,9 @@ hr.rounded {
 /* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
 @keyframes tickerh {
   0% { transform: translate3d(100%, 0, 0); }
-  100% { transform: translate3d(-10000%, 0, 0); }
+  100% { transform: translate3d(-1000%, 0, 0); }
 }
-.hmove { animation: tickerh linear 60s infinite; }
+.hmove { animation: tickerh linear 40s infinite; }
 .hmove:hover { animation-play-state: paused; }
 
 /* Table of Contents styling*/
