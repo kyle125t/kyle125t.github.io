@@ -53,11 +53,13 @@ div.container {
 }
 
 .container h2 {
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .container p {
-  margin: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* media queries which will only be activated at specific screen sizes */
