@@ -1,8 +1,10 @@
+import plotly.graph_objects as px
+
 // Initializes the page with a default plot
 function init() {
   data = [{
     x: [2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021],
-    y: [1500, 1600, , 4, 5, 6, 7, 8],
+    y: [1500, 1600, 1700, 1800, 1900, 1800, 1700, 1600],
     type: 'bar'
   }];
   var layout = {
@@ -31,17 +33,25 @@ function updatePlotly() {
 
   // Bmas
   if (dataset === 'dataset1') {
-    plot = px.Figure(data=[go.Bar(
-      name = 'Points For',
-      x = x,
-      y = [100, 200, 500, 673]
-     ),
-                         go.Bar(
-      name = 'Points Against',
-      x = x,
-      y = [56, 123, 982, 213]
-     )
-  ])
+    var trace1 = {
+      x: x,
+      y: [1500, 1600, 1700, 1800, 1900, 1800, 1700, 1600],
+      type: "bar"
+    };
+    
+    var trace2 = {
+      x: x,
+      y: [1400, 1500, 1600, 1700, 1800, 1700, 1600, 1700],
+      type: "bar"
+    };
+
+    var data = [trace1, trace2];
+    
+    var layout = {
+      title: "Points For/Against"
+    };
+    
+    Plotly.newPlot("plot", data, layout);
   }
   // // Brian
   // else if (dataset === 'dataset2') {
