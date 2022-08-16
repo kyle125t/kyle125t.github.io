@@ -52,6 +52,14 @@ div.container {
   margin-right: auto;
 }
 
+.container h2 {
+  margin: 20px;
+}
+
+.container p {
+  margin: 20px;
+}
+
 /* media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {
