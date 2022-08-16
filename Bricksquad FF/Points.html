@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="American-Football-PNG-Picture.png" type="image/x-icon">
+  <title>973 Bricksquad Fantasy Football Database</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="style.css" media="screen">
+</head>
+
+<body>
+    <div class="header">
+      <a href="../index.html">
+        <img src="bs logo.png" alt="logo">
+      </a>
+    </div>
+    <nav class="navbar navbar-light bg-light">
+      <!-- NAVBAR CODE (from Bootstrap)--> 
+      <a class="navbar-brand">973 Bricksquad Fantasy Football Database</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+            <a class="nav-link" href="../index.html">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://fantasy.espn.com/football/league?leagueId=463940"> League Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="https://docs.google.com/spreadsheets/d/1dSBBTEi6HuGpdBM3oyrFaW515PXA2yWumYOVKrEodsk/edit?usp=sharing"> Keeper Tool<span class="sr-only">(current)</span></a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Site Directory
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <!-- Rules built into page -->
+              <a class="dropdown-item" href="Rules.html">League Rules</a>
+              <!-- League Finish Line Chart-->
+              <a class="dropdown-item" href="League Finish.html">League Finish</a>
+              <!-- Pulls team stats from 973BSFF sheet into page-->
+              <a class="dropdown-item" href="Team History.html">Draft Grades</a>
+            </div>
+        </ul>
+      </div> 
+    </nav>  
+    <!-- Start new page info here-->
+    <div id="plot"></div>
+    <title>League Finish</title>
+    <select id="selDataset">
+      <option value="dataset0">DEFAULT</option>
+      <option value="dataset1">Bmas</option>
+      <option value="dataset2">Brian</option>
+      <option value="dataset3">Bryan</option>
+      <option value="dataset4">Dickie</option>
+      <option value="dataset5">Erik</option>
+      <option value="dataset6">Jay</option>
+      <option value="dataset7">Jim</option>
+      <option value="dataset8">Kuch</option>
+      <option value="dataset9">Kyle</option>
+      <option value="dataset10">Steve</option>
+    </select>
+  
+    <script src="league-finish.js"></script>
+    <!-- End new page info here-->
+    <div class="footer">
+      <div class="hwrap"><div class="hmove">
+        <div class="hitem">Jim renews deal with Satan on three-year terms.</div>
+        <div class="hitem">On "Stew's Decision" TV special, Steve announces he intends to draft Patrick Mahomes.</div>
+        <div class="hitem">Missing man, Bmas, resurfaces after one year with mild amnesia in the Pine Barrens.</div>
+        <div class="hitem">Commissioner Berlinger proposes "Winners Win" tax on last place team.</div>
+        <div class="hitem">Exclusive interview: Bryan on "elevating" his game in 2022.</div>
+        <div class="hitem">Kuch signs with the Commanders after Dan Snyder confuses him with Cooper Kupp.</div>
+        <div class="hitem">Erik eligible to return from PUP list after rib injury.</div>
+        <div class="hitem">Dickie returns from honeymoon with full head of hair, faces questions on purpose of trip.</div>
+        <div class="hitem">Former champ Jar mulls retirement amidst scheduling concerns.</div>
+        <div class="hitem">Kyle insists controversial social media posts threatening Matt Rhule were "only jokes".</div>
+      </div></div>
+    </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
+
