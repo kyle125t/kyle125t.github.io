@@ -37,7 +37,8 @@ hr.rounded {
 
 .container img {
   width: 50%;
-  margin-right: 50px;
+  margin-right: 20px;
+  margin-left: 50px;
   flex: row;
 }
 
