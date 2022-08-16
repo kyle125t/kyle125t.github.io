@@ -1,5 +1,3 @@
-import plotly.graph_objects as px
-
 // Initializes the page with a default plot
 function init() {
   data = [{
