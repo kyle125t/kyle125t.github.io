@@ -38,6 +38,7 @@ hr.rounded {
 .container img {
   width: auto;
   margin-right: 20px;
+  flex: row;
 }
 
 /* media queries which will only be activated at specific screen sizes */
