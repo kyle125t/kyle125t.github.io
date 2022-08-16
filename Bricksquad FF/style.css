@@ -37,8 +37,13 @@ hr.rounded {
 
 .container img {
   width: 50%;
-  /* margin-right: 20px; */
+  margin-right: 50px;
   flex: row;
+}
+
+.container ul li {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /* media queries which will only be activated at specific screen sizes */
