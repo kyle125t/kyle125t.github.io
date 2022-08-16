@@ -23,6 +23,22 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
+hr.rounded {
+  border-top: 5px solid #222222;
+  border-radius: 5px;
+}
+
+container {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+container img {
+  width: auto;
+  margin-right: 20px;
+}
 /* media queries which will only be activated at specific screen sizes */
 @media (max-width: 800px) {
   #table-area td {
