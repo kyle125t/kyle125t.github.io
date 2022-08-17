@@ -32,7 +32,6 @@ hr.rounded {
 }
 
 .container {
-  width: 300px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -53,7 +52,7 @@ hr.rounded {
 
 div.container {
   display: flex;
-  margin-left: 200px;
+  margin-left: 250px;
   margin-right: auto;
   text-align: center;
 }
@@ -167,11 +166,11 @@ div.container {
   0% { transform: translate3d(100%, 0, 0); }
   100% { transform: translate3d(-1000%, 0, 0); }
 }
-.hmove { animation: tickerh linear 20s infinite; }
+.hmove { animation: tickerh linear 60s infinite; }
 .hmove:hover { animation-play-state: paused; }
 
 @media only screen and (max-width: 768px) {
-  .hmove { animation-duration: 20s; }
+  .hmove { animation-duration: 60s; }
 }
 
 /* Table of Contents styling*/
