@@ -53,32 +53,9 @@ function updatePlotly() {
     
     Plotly.newPlot("plot", data, layout);
   }
-  // Brian
-  else if (dataset === 'dataset2') {
-    var trace1 = {
-      name: "Points For",
-      x: x,
-      y: [1763,2106,1521,1681,1524.1,1640.6,1541.1,1700.1],
-      type: "bar"
-    };
-    
-    var trace2 = {
-      name: "Points Against",
-      x: x,
-      y: [1710,1779,1564.8,1537.2,1635.3,1618.6,1583.1,1708.36],
-      type: "bar"
-    };
-
-    var data = [trace1, trace2];
-    
-    var layout = {
-      title: "Points For/Against"
-    };
-    
-    Plotly.newPlot("plot", data, layout);
-  }
+  
   // Bryan
-  else if (dataset === 'dataset3') {
+  else if (dataset === 'dataset2') {
     var trace1 = {
       name: "Points For",
       x: x,
@@ -102,7 +79,7 @@ function updatePlotly() {
     Plotly.newPlot("plot", data, layout);
   }
   // Dickie
-  else if (dataset === 'dataset4') {
+  else if (dataset === 'dataset3') {
     var trace1 = {
       name: "Points For",
       x: x,
@@ -126,7 +103,7 @@ function updatePlotly() {
     Plotly.newPlot("plot", data, layout);
   }
   // Erik
-  else if (dataset === 'dataset5') {
+  else if (dataset === 'dataset4') {
     var trace1 = {
       name: "Points For",
       x: x,
@@ -149,6 +126,32 @@ function updatePlotly() {
     
     Plotly.newPlot("plot", data, layout);
   }
+
+// Jar
+else if (dataset === 'dataset5') {
+  var trace1 = {
+    name: "Points For",
+    x: x,
+    y: [1763,2106,1521,1681,1524.1,1640.6,1541.1,1700.1],
+    type: "bar"
+  };
+  
+  var trace2 = {
+    name: "Points Against",
+    x: x,
+    y: [1710,1779,1564.8,1537.2,1635.3,1618.6,1583.1,1708.36],
+    type: "bar"
+  };
+
+  var data = [trace1, trace2];
+  
+  var layout = {
+    title: "Points For/Against"
+  };
+  
+  Plotly.newPlot("plot", data, layout);
+}
+
   // Jay
   else if (dataset === 'dataset6') {
     var trace1 = {
