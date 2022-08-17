@@ -167,8 +167,12 @@ div.container {
   0% { transform: translate3d(100%, 0, 0); }
   100% { transform: translate3d(-1000%, 0, 0); }
 }
-.hmove { animation: tickerh linear 50s infinite; }
+.hmove { animation: tickerh linear 20s infinite; }
 .hmove:hover { animation-play-state: paused; }
+
+@media only screen and (max-width: 768px) {
+  .hmove { animation-duration: 20s; }
+}
 
 /* Table of Contents styling*/
 #toc_container {
