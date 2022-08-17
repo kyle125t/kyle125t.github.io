@@ -38,9 +38,9 @@ hr.rounded {
 }
 
 .container img {
-  width: 60%;
+  width: 25%;
   margin-right: 20px;
-  margin-left: 50px;
+  margin-left: 20px;
   flex: row;
 }
 
