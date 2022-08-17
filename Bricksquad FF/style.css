@@ -23,7 +23,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 hr.rounded {
@@ -53,7 +53,7 @@ hr.rounded {
 
 div.container {
   display: flex;
-  margin-left: 100px;
+  margin-left: 500px;
   margin-right: auto;
   text-align: center;
 }
