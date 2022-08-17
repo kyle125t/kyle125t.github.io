@@ -52,9 +52,11 @@ hr.rounded {
 
 div.container {
   display: flex;
-  margin-left: 300px;
+  margin-left: 250px;
   margin-right: auto;
   text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .container h2 {
