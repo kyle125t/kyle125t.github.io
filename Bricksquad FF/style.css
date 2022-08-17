@@ -49,9 +49,14 @@ hr.rounded {
 }
 
 div.container {
-  display: inline-flex;
+  display: inline-flex block;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
+}
+
+div.container p {
+  vertical-align: center;
   text-align: center;
 }
 
