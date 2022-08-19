@@ -27,7 +27,7 @@ var chartGroup = svg.append("g")
   .attr("transform", `translate(${chartMargin.left}, ${chartMargin.top})`);
 
 // Load data from csv
-d3.csv('973BSFF-Combined Sheet.csv').then(function(ffData) {
+d3.csv("https://github.com/kyle125t/kyle125t.github.io/blob/master/Bricksquad%20FF/973BSFF-Combined%20Sheet.csv").then(function(ffData) {
 
   // Print the tvData
   console.log(ffData);
