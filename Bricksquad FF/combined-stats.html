@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <script src="../Bricksquad FF/d3.min.js"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- <script src="../Bricksquad FF/d3.min.js"></script> -->
   <title>Combined Stats</title>
   <link rel="stylesheet" href="style.css">
+  <input type="file" name="csv" accept="csv">
 </head>
-<body>
-  <!-- <script src="https://d3js.org/d3.v7.min.js"></script> -->
-  <script> d3.fetch("https://github.com/kyle125t/kyle125t.github.io/blob/master/Bricksquad%20FF/973BSFF-Combined%20Sheet.csv", function(data) {
-    console.log(data);
-  });
-  </script>
-  <!-- <script src="main-data.js"></script> -->
-</body>
+
+  <body>
+    <!-- <script> d3.csv.parse("http", function(data) {
+      console.log(data);
+    });
+    </script> -->
+    <script src="main-data.js"></script>
+  </body>
 </html>
