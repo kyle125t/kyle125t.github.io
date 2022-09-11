@@ -76,6 +76,15 @@ div.container {
   vertical-align: middle;
 }
 
+p {
+  margin-left: 20px;
+  text-align: justify;
+}
+
+table {
+  vertical-align: middle;
+}
+
 .modal {
   width: 50vw;
   height: 50vh;
