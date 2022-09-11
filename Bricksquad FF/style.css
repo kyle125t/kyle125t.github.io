@@ -86,6 +86,11 @@ div.table {
   vertical-align: middle;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .modal {
   width: 50vw;
   height: 50vh;
